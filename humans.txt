@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <name> Marko Prcać <role> Developer <twitter>
 
 # THANKS
 
-    <name>
+    <name> 
 
 # TECHNOLOGY COLOPHON
 
