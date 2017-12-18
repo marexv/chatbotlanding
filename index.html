@@ -2,28 +2,6 @@
 <html class="no-js" lang="">
 
 <head>
-    <!-- cookies consent -->
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"
-    />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-    <script>
-        window.addEventListener("load", function () {
-            window.cookieconsent.initialise({
-                "palette": {
-                    "popup": {
-                        "background": "#237afc"
-                    },
-                    "button": {
-                        "background": "transparent",
-                        "text": "#fff",
-                        "border": "#fff"
-                    }
-                }
-            })
-        });
-    </script>
-    <!-- ./ cookies consent -->
-
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Dinit Chatbot</title>
@@ -40,17 +18,15 @@
             window.cookieconsent.initialise({
                 "palette": {
                     "popup": {
-                        "background": "#1d85ff",
-                        "text": "#4a1717"
+                        "background": "#237afc"
                     },
                     "button": {
-                        "background": "#8c4848",
-                        "text": "#2e0e0e"
+                        "background": "transparent",
+                        "text": "#fff",
+                        "border": "#fff"
                     }
                 },
-                "theme": "edgeless",
-                "position": "top",
-                "static": true,
+                "position": "bottom-left",
                 "content": {
                     "message": "This website uses cookies to ensure you get the best experience on our website. "
                 }
@@ -62,6 +38,7 @@
     <link rel="manifest" href="site.webmanifest">
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
@@ -164,13 +141,22 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2>Available modules</h2>
-                    <ul>
-                        <li>Frequently asked questions answering.</li>
-                        <li>Quick information overview in messengers carusel and textual formats</li>
-                        <li>Notifications and messeging</li>
-                        <li>Advertising advertising campaigns</li>
-                        <li>Advanced voice control of custumizable functions</li>
-                        <li>Optical character recognition (invoice tracking)</li>
+                    <ul class="list-unstyled">
+                        <li>
+                            <p class="lead">Frequently asked questions answering.</p>
+                        </li>
+                        <li>
+                            <p class="lead">Quick information overview in messengers carusel and textual formats.</p>
+                        </li>
+                        <li>
+                            <p class="lead">Notifications and messaging.</p>
+                        </li>
+                        <li>
+                            <p class="lead">Advertising campaigns</p>
+                        </li>
+                        <li>
+                            <p class="lead">Optical character recognition (invoice tracking)</p>
+                        </li>
                     </ul>
                     <p class="lead"></p>
                 </div>
@@ -180,8 +166,8 @@
 
     <!-- video -->
     <div class="container-fluid" style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;">
-        <iframe src="https://www.youtube.com/embed/DvuIn1vQ8OA?rel=0&amp;controls=0" frameborder="0" gesture="media" allow="encrypted-media"
-            allowfullscreen class="video"></iframe>
+        <iframe src="https://www.youtube.com/embed/DvuIn1vQ8OA?start=2" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen
+            class="video"></iframe>
     </div>
     <!-- /.video -->
 
@@ -190,9 +176,13 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2>Why Chatbot?</h2>
+
                     <h4>Ease of use</h4>
-                    <p class="lead">Over 2.5 billion people have at least one messaging app installed, hence there is decent chance that
-                        your users won't have to install aynthing</p>
+                    <p class="lead">
+                        Over 2.5 billion people have at least one messaging app installed, hence there is decent chance that your users won't have
+                        to install aynthing
+                    </p>
+
                     <h4>Your customer is already on the platform</h4>
                     <p class="lead">Top four messaging apps (Messenger, WhatsApp, WeChat and Viber) have more monthly active users than the
                         top four social networking apps (Facebook, Twitter, Instagram and Google+)</p>
@@ -202,6 +192,7 @@
                     <p class="lead">Is difficult to push consumers to use a new application and the average app loses more than 75% of its
                         users after one day, 72% of people use less than 7 apps per day, Usually 80% of time is spent in
                         a messaging app.</p>
+
                 </div>
             </div>
         </div>
@@ -212,7 +203,7 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2>Our services</h2>
-                    <p class="lead">Consulting, development, hosting and support! All by a company with tradition in-house developed solutions
+                    <p class="lead">Consulting, development, hosting and support! All by a company with tradition and experience in in-house developed solutions
                         for financial sector and top safety standards. We were fintech before it was cool!</p>
                 </div>
             </div>
@@ -225,7 +216,7 @@
                 <div class="col-lg-8 mx-auto">
                     <h2>Contact us</h2>
                     <p class="lead">Our chatbot platform is desingned with future integrations in mind. It is REST-ful and Stateless hence
-                        ready to be integrated on top of your existing systems. Contact us for ideas, pricing and furthern
+                        ready to be integrated on top of your existing systems. Contact us for ideas, pricing and further
                         integration consulting.</p>
                 </div>
             </div>
